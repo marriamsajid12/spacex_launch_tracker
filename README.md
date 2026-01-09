@@ -29,24 +29,6 @@ It provides tools to filter launches, calculate statistics, and analyze launch t
 - Written in Python 3.8+ with type hints
 - Executable as a Python package
 
----
-
-## Project Structure
-
-spacex-launch-tracker/
-├── spacex_tracker/
-│ ├── __main__.py
-│ ├── api.py # SpaceX API client
-│ ├── cache.py # Local caching logic
-│ ├── filters.py # Launch filtering functions
-│ ├── models.py # Typed data models
-│ ├── service.py # Service layer (API + cache)
-│ └── stats.py # Statistics calculations
-├── tests/ # Unit tests
-├── data/ # Cached API responses
-├── requirements.txt
-└── README.md
-
 
 ---
 
@@ -68,4 +50,5 @@ pip install -r requirements.txt
 python3 -m spacex_tracker
 
 ## Running the tests
+
 python -m pytest
