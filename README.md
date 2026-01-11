@@ -36,8 +36,8 @@ It provides tools to filter launches, calculate statistics, and analyze launch t
 
 ## 1️.Clone the repository
 
-git clone <your-repository-url>
-cd spacex-launch-tracker
+git clone <git@github.com:marriamsajid12/spacex_launch_tracker.git>
+cd spacex_launch_tracker
 
 ## 2️.Create and activate a virtual environment (recommended)
 python -m venv venv
@@ -52,3 +52,4 @@ python3 -m spacex_tracker
 ## Running the tests
 
 python -m pytest
+
